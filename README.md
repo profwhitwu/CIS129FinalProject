@@ -19,7 +19,7 @@ The game should keep track of the Wizert's current location, even though this in
 |Heal         |The Wizert casts a spell to heal his wounds.     |5      |Heals 3 Health Points (aka HP).               |
 |Flee         |The Wizert attempts to flee from battle          |n/a    |Has a chance of allowing the Wizert to escape.|
 
-When an action is performed, a description of what is happening should be displayed.  The amount of MP consumed, and the effects of the action should also be displayed when using an attack.  When an enemy takes an attack, you should display their new value for HP to the user.  When attempting to flee, a message indicating that the Wizert did/did not successfully escape battle should be displayed.   At the start of the game, the Wizert has 100 Health Points (HP) and 200 Magicka Points (MP).  If the Wizert is depleted of health before escaping the dungeon, the game is over.  
+When an action is performed, a description of what is happening should be displayed.  The amount of MP consumed, and the effects of the action should also be displayed when using an attack.  When an enemy takes an attack, you should display their new value for HP to the user.  When attempting to flee, a message indicating that the Wizert did/did not successfully escape battle should be displayed.   At the start of the game, the Wizert has 100 Health Points (HP) and 200 Magicka Points (MP).  If the Wizert is depleted of health before escaping the dungeon, the game is over.  A message indicating the Wizet has lost should be displayed to the console, along with an offer to play the game again.
 
 ## Enemy Lore
 There are three kinds of enemies in this dungeon, each with their own HP and attack.  The table below shows the name of each enemy, how much health they have, the name of their attack, and how much damage they can do to the Wizert.
@@ -63,7 +63,7 @@ Upon startup, two locations are determined at random:
 -	The current position of the Wizert.
 -	The location of the Dungeon exit. 
 
-You should not display the coordinates for either of these locations, but you should save them off somewhere in their own variables. You will need these as a reference when determining where the Wizert is and if they have reached the exit. 
+You should not display the coordinates for either of these locations, but you should save them off somewhere in their own variables. You will need these as a reference when determining where the Wizert is and if they have reached the exit. When the Wizert reaches the exit, stop the program and inform the player they have won.  Then offer to let them play again.
 
 ## Input
 You will need to practice good input validation when developing this application.  You could give the user the option to manually enter "commands" to the Wizert, but it may be easier to give them options to select.  For example, you might have something like this in a battle:
