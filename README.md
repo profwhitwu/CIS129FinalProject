@@ -91,12 +91,14 @@ The project gives you the opportunity to use the knowledge you have gained this 
 -	Knowledge of data structures.
 -	Input validation.
 -	Ability to seek out and use libraries.
--	Creating classes and instantiating them into objects (do not place all logic in Program.cs).
+-	Creating classes and instantiating them into objects.
 -	Using operators.
 -	Using conditional statements (if and/or switch).
 -	Using loops.
 -	Inheritance.
 - Encapsulation.
+
+When creating new classes, make sure each one is in it's own file.  DO NOT place all logic in Program.cs.  
 
 # Expectations
 From this point on, you will have no homework for the rest of the semester.  As such, you will be expected to work on this project.   To ensure that you are actively developing the application, you will be expected to push at least one commit to Github Classroom per week (every Monday) until either the project is completed or the due date (12/5/2022) is reached.  When pushing a commit, leave me a comment letting me know what changes you have made so that I can monitor your progress (don't forget to assign me as the reviewer so I can see these messages come in via email).  I may choose to leave feedback if I see fit, but I will not proofread your code upon request.  Not pushing your work every Monday will result in a loss of points.
