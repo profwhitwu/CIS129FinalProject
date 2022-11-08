@@ -91,7 +91,7 @@ The project gives you the opportunity to use the knowledge you have gained this 
 -	Knowledge of data structures.
 -	Input validation.
 -	Ability to seek out and use libraries.
--	Creating classes and instantiating them into objects.
+-	Creating classes and instantiating them into objects (do not place all logic in Program.cs).
 -	Using operators.
 -	Using conditional statements (if and/or switch).
 -	Using loops.
