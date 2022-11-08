@@ -85,6 +85,12 @@ You are in a room illuminated by torches.  It reeks of orc, though you do not se
 4.	To go west
 ```
 
+# Follow the Instructions Closely
+It is crucial you meet all requirements in this project to recieve full credit.  Missing requirements means that an unfinished project has been shipped, which will not make our end users happy.  This will result in a deduction of points.
+
+# Testing
+Make sure to run this game on your own and test that it works as expected.  This is the best way to find bugs, and you may run into areas that you would like to improve (i.e. improving location descriptions, tuning difficultly).  Any code that does not build by the due date (or when you state it's finished) will be given an automatic zero.  Runtime errors will result in a deduction of points.
+
 # What This Project Tests
 The project gives you the opportunity to use the knowledge you have gained this semester to write a full-fledged application.  This includes:
 -	Your understanding of which data types exist and when to use them.
@@ -98,7 +104,7 @@ The project gives you the opportunity to use the knowledge you have gained this 
 -	Inheritance.
 - Encapsulation.
 
-When creating new classes, make sure each one is in it's own file.  DO NOT place all logic in Program.cs.  
+When creating new classes, make sure each one is in it's own file.  DO NOT place all logic in Program.cs.  Points will be deducted if I see design decisions that show these concepts have not been understood (i.e. not using classes where they would make the most sense, overengineering, etc).  
 
 # Expectations
 From this point on, you will have no homework for the rest of the semester.  As such, you will be expected to work on this project.   To ensure that you are actively developing the application, you will be expected to push at least one commit to Github Classroom per week (every Monday) until either the project is completed or the due date (12/5/2022) is reached.  When pushing a commit, leave me a comment letting me know what changes you have made so that I can monitor your progress (don't forget to assign me as the reviewer so I can see these messages come in via email).  I may choose to leave feedback if I see fit, but I will not proofread your code upon request.  Not pushing your work every Monday will result in a loss of points.
