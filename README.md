@@ -48,7 +48,7 @@ Finding the exit to the dungeon could take time, and it's possible the Wizert wi
 As with enemy encounters, powerup locations should be set manually.  The number of powerups found in the dungeon are at your discretion.  The Wizert should automatically consume the powerup if it is available at their present location.  However, the powerup should only be available for one time use at that location.  No replacement powerup or new powerup should be present if the Wizert backtracks to that location.  After consuming a powerup, display how much HP or MP was restored, then display the current HP and MP of the Wizert.
 
 ## The Dungeon 
-The dungeon should be separated into smaller units.  Each unit represents the location of the dungeon that the Wizert can travel to.  It would be best to represent it as a 2-dimensional graph, with each unit representing a coordinate on the graph.  This graph should be 5x5, meaning there are a total of 25 units the Wizert could travel to.  Below is a drawing of a 5x5 graph:
+The dungeon should be separated into smaller units.  Each unit represents the location of the dungeon that the Wizert can travel to.  It would be best to represent the dungeon as a 2-dimensional graph, with each unit representing a coordinate on the graph.  This graph should be 5x5, meaning there are a total of 25 units the Wizert could travel to.  Below is a drawing of a 5x5 graph:
 
 ![alt text](blankTable.JPG "A 5 x 5")
 
